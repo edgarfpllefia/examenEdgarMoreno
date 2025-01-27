@@ -2,6 +2,10 @@
     font-family: "Poppins", serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+}
 
 
 .ContenedorPrincipal{
@@ -21,8 +25,8 @@ ul{
     list-style-type: none;
 }
 
-li{
-    margin-left: 40;
+ul li{
+    margin-left: 40px;
 }
 
 h1{
@@ -41,6 +45,19 @@ h2{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+
+h3{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 37.9px;
+    font-weight: 600;
+    line-height: 36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: -110px;
+}
+
 
 .pUno{
     font-family: Poppins;
@@ -80,5 +97,74 @@ input[type="submit"]{
 
 
 .ContenedorDos{
+    max-width: 1300px;
+    max-height: 446px;
     display: flex;
+    padding: 0 112px;
+    background-color: #F4F4F4;
+    margin-top: 100px;
+}
+
+.ContenedorTres{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    max-height: 446px;
+    margin-bottom: 250px;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.ContenedorCuatro{
+    width: 1300px;
+    height: 541px;
+    max-width: 1300px;
+    max-height: 541px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #F4F4F4;
+    margin-bottom: 104px;
+}
+
+.ContenedorCinco{
+    width: 1300px;
+    height: 541px;
+    max-width: 1300px;
+    max-height: 541px;
+    background-image: url(/imagenes/ImagenSelva.svg);
+}
+
+button{
+   width: 257px;
+   height: 67px;
+   border-radius: 67px;
+   border: 1px solid white;
+   padding: 16px; 
+   background-color: transparent;
+   color: white;
+   text-align: center;
+    font-family: Poppins;
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+
+.ContenedorSeis{
+    width: 1165px;
+    height: 356px;
+    background-color: #FCE2D7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -110px;
+    margin-left: 75px;
+}
+
+footer{
+    margin-top: 118px;
 }
