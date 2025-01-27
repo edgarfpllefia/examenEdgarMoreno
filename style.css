@@ -167,4 +167,11 @@ button{
 
 footer{
     margin-top: 118px;
+    background-color: #285E67;
+    width: 1300px;
+    max-width: 1441px;
+    height: 245px;
+    max-height: 245px;
+    color: white;
+    padding-left:139px;
 }
